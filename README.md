@@ -120,6 +120,6 @@ docker run -d --name doggo -p 80:80 cgrime/mysite:latest
       A[Local Machine] -- Git push --> B[Github repo];
       B -- Github Workflow --> C[Dockerhub];
       B -- New image on dockerhub --> C[Dockerhub];
-      C -- After notificaion is recieved refresh.sh begins to run --> D[After restart.sh is ran website is accessible again];
-      C -- Webhook recieves notifications from dockerhub --> D[After restart.sh is ran website is accessible again];
+      C -- After notificaion is received refresh.sh begins to run --> D[After restart.sh is ran website is accessible again];
+      C -- Webhook receives notifications from dockerhub --> D[After restart.sh is ran website is accessible again];
 ```
