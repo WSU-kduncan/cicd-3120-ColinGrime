@@ -1,0 +1,3 @@
+- id: redeploy
+  execute-command: "/home/ubuntu/cicd-3120-ColinGrime/pull-restart.sh"
+  command-working-directory: "/var/webhook"
